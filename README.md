@@ -215,12 +215,13 @@
 - `v_measure_score`：聚类结果的同质性与完整性平衡指标
 - `fowlkes_mallows_score`（FMI）：衡量精确度与召回率的几何平均
 
-### 6. 输出结果示例
+### 6. 输出结果示例（直接运行调试会出现问题）
 ```text
-Training set after PCA: (行数, 降维后的特征数)
-Test set after PCA: (行数, 降维后的特征数)
+Training set after PCA: (5056, 3)
+Test set after PCA: (1265, 3)
 
 For n_clusters = 2:
-ARI评价指标: 0.284
-V-Measure评价指标: 0.352
-FMI评价指标: 0.495
+ARI评价指标: 0.8486263811782202
+V-Measure评价指标: 0.7448523644108072
+FMI评价指标: 0.9682949423300438
+
