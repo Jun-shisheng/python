@@ -14,5 +14,7 @@
 - 使用iloc对数据进行索引。
 - 计算房屋价格均值等数据。
 - 使用describe计算房屋价格数据
+- new_postcode特征
+- 计算每个地区房屋售出
 - `4chapter.py` - 
 - 
